@@ -1,5 +1,4 @@
 test/
-php/
 nltk_data/
 app/data.pth
 app/intents.json

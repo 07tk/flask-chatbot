@@ -1,7 +1,6 @@
 import nltk
 from nltk.data import find
-nltk.data.path.append('C:/Users/bebop/OneDrive/Documents/ML/chatbot_flask/nltk_data')
-
+nltk.download('punkt_tab', download_dir=find('nltk_data'))
 import numpy as np
 
 from nltk.stem.porter import PorterStemmer
