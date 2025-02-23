@@ -1,0 +1,258 @@
+{
+  "intents": [
+    
+      {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "general",
+      "patterns": [
+        "In which country is Almetyevsk located?",
+        "Where is Almetyevsk?",
+        "What is Almetyevsk?"
+      ],
+      "responses": [
+        "Almetyevsk is located in Russia",
+        "Almetyevsk is a city in tartarstan",
+        "Almetyevsk is a city in Russia"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "people",
+      "patterns": [
+        "What is the population in Almetyevsk?",
+        "How many people live in Almetyevsk?",
+        "What is the population in Almet?"
+      ],
+      "responses": [
+        "According to recent data, the population of Almetyevsk is 163,516 people",
+        "The population of Almetyevsk is 163,516 people"
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "What is the local cuisine or popular food in the city in almetyevsk",
+        "What is the popular cuisine in Almetyevsk?",
+        "What is the local food in Almetyevsk?",
+        "what is the popular food in Almetyevsk?"
+      ],
+      "responses": [
+        "Almetyevsk's local cuisine includes Tatar dishes such as echpochmak, kystybyi, peremech, beshbarmak, plov, shurpa, chak-chak, and Tatar tea",
+        "The local cuisine of Almetyevsk features Tatar dishes like echpochmak, kystybyi, peremech, beshbarmak, plov, shurpa, chak-chak, and Tatar tea",
+        "Almetyevsk is known for its Tatar cuisine, which includes dishes such as echpochmak, kystybyi, peremech, beshbarmak, plov, shurpa, chak-chak, and Tatar tea"
+      ]
+    },
+    {
+      "tag": "sports",
+      "patterns": [
+        "Are there any notable sports teams or events in Almetyevsk?",
+        "Does Almetyevsk have any prominent sports teams or events?",
+        "Are there any famous sports teams or events in Almetyevsk?",
+        "what are the famous sports team in almetyevsk?",
+        "Can you tell me about the sports teams in Almetyevsk?"
+      ],
+      "responses": [
+        "Almetyevsk is home to local sports teams like the ice hockey team Almetyevsk and football club Neftyanik, along with a strong tradition in boxing, wrestling, and regional sports events",
+        "Almetyevsk has notable local sports teams such as the ice hockey team Almetyevsk and the football club Neftyanik, along with a rich tradition in boxing, wrestling, and regional sports competitions",
+        "Almetyevsk features sports teams like the ice hockey club Almetyevsk and the football team Neftyanik, along with a notable history in boxing, wrestling, and various regional sports events"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What is the weather in Almetyevsk?",
+        "How is the weather in Almetyevsk?",
+        "Do you know the weather in Almetyevsk?"
+      ],
+      "responses": [
+        "The weather in",
+        "The current weather in"
+      ]
+    },
+    {
+      "tag": "cafe",
+      "patterns": [
+        "What cafes can be found in Almetyevsk?",
+        "Are there any cafes in Almetyevsk?",
+        "Can you recommend a cafe in Almetyevsk?",
+        "What are some popular cafes in Almetyevsk?",
+        "Which cafes are located in Almetyevsk?",
+        "What cafes are available in Almetyevsk?"
+      ],
+      "responses": [
+        "Almetyevsk has a variety of cafes, including Coffee Shop No. 1 with coffee and desserts, Terrace offering European and Asian cuisine, Shokoladnitsa with desserts and drinks, and Chaikhona No. 1 serving Uzbek cuisine.",
+        "Some of the cafes in Almetyevsk are Coffee Shop No. 1 with coffee and desserts, Terrace offering European and Asian cuisine, Shokoladnitsa with desserts and drinks, and Chaikhona No. 1 serving Uzbek cuisine.",
+        "Popular cafes in Almetyevsk include Coffee Shop No. 1 with coffee and desserts, Terrace offering European and Asian cuisine, Shokoladnitsa with desserts and drinks, and Chaikhona No. 1 serving Uzbek cuisine.",
+        "In Almetyevsk, you can visit Coffee Shop No. 1 for coffee and desserts, Terrace for European and Asian cuisine, Shokoladnitsa for desserts and drinks, and Chaikhona No. 1 for Uzbek cuisine."
+      ]
+    },
+    {
+      "tag": "delicious",
+      "patterns": [
+        "Where can I eat delicious food in Almetyevsk?",
+        "What are the best places to eat in Almetyevsk?",
+        "Can you recommend some delicious restaurants in Almetyevsk?",
+        "Where can I find tasty food in Almetyevsk?"
+      ],
+      "responses": [
+        "Almetyevsk offers a variety of cuisine with Dom Khinkali serving Georgian dishes, Sushi Wok offering Japanese food, Pelmennaya specializing in Russian dumplings and soups, and 'Burger Club' featuring burgers and snacks.",
+        "In Almetyevsk, you can enjoy a range of cuisine with Dom Khinkali for Georgian dishes, Sushi Wok for Japanese food, Pelmennaya for Russian dumplings and soups, and 'Burger Club' for burgers and snacks.",
+        "For delicious food in Almetyevsk, you can try Dom Khinkali for Georgian cuisine, Sushi Wok for Japanese dishes, Pelmennaya for Russian dumplings and soups, and 'Burger Club' for burgers and snacks.",
+        "Some of the best places to eat in Almetyevsk include Dom Khinkali for Georgian cuisine, Sushi Wok for Japanese food, Pelmennaya for Russian dumplings and soups, and 'Burger Club' for burgers and snacks."
+      ]
+    },
+    {
+      "tag": "parks",
+      "patterns": [
+        "What parks are there in Almetyevsk?",
+        "Are there any parks in Almetyevsk?",
+        "Can you recommend a park in Almetyevsk?",
+        "What are some popular parks in Almetyevsk?",
+        "Which parks are located in Almetyevsk?",
+        "What parks are available in Almetyevsk?"
+      ],
+      "responses": [
+        "Shamsinur Park, a popular place for walking, Culture and Recreation Park with attractions and recreation areas, and Neftyanikov Square, a small, cozy square, are among the several parks in the city.",
+        "Almetyevsk has several parks, including Shamsinur Park for walking, Culture and Recreation Park with attractions and recreation areas, and Neftyanikov Square, a small, cozy square.",
+        "Some of the parks in Almetyevsk are Shamsinur Park for walking, Culture and Recreation Park with attractions and recreation areas, and Neftyanikov Square, a small, cozy square.",
+        "Popular parks in Almetyevsk include Shamsinur Park for walking, Culture and Recreation Park with attractions and recreation areas, and Neftyanikov Square, a small, cozy square."
+      ]
+    },
+    {
+      "tag": "walk",
+      "patterns": [
+        "Where can I go for a walk in Almetyevsk?",
+        "What are the best places for a walk in Almetyevsk?",
+        "Can you recommend some walking spots in Almetyevsk?",
+        "Where can I find good walking paths in Almetyevsk?",
+        "What are some nice places to walk in Almetyevsk?"
+      ],
+      "responses": [
+        "Popular places for walking include the beautiful embankment of the Zai River with a view of the water, Lenin Square, the central square of the city, and Shamsinur Park with fountains and alleys.",
+        "In Almetyevsk, you can enjoy walking along the scenic embankment of the Zai River, Lenin Square, the central square of the city, and Shamsinur Park with fountains and alleys.",
+        "For a pleasant walk in Almetyevsk, you can visit the picturesque embankment of the Zai River, Lenin Square, the central square of the city, and Shamsinur Park with fountains and alleys.",
+        "Some of the best places for a walk in Almetyevsk are the scenic embankment of the Zai River, Lenin Square, the central square of the city, and Shamsinur Park with fountains and alleys."
+      ]
+    },
+    {
+      "tag": "Hotel",
+      "patterns": [
+        "Where can I stay in Almetyevsk?",
+        "What hotels are there in Almetyevsk?",
+        "Are there any hotels in Almetyevsk?",
+        "Can you recommend a hotel in Almetyevsk?",
+        "What are some popular hotels in Almetyevsk?",
+        "Which hotels are located in Almetyevsk?"
+      ],
+      "responses": [
+        "In Almetyevsk, you can stay at the upscale Altyn Hotel or Devon Hotel, offering higher-end accommodations, or opt for more affordable options like Neftyanik Hotel and Hostel Almet for budget-friendly stays.",
+        "Some of the hotels in Almetyevsk are the upscale Altyn Hotel or Devon Hotel, offering higher-end accommodations, and more affordable options like Neftyanik Hotel and Hostel Almet for budget-friendly stays.",
+        "Popular hotels in Almetyevsk include the upscale Altyn Hotel or Devon Hotel, offering higher-end accommodations, and more affordable options like Neftyanik Hotel and Hostel Almet for budget-friendly stays."
+      ]
+    },
+    {
+      "tag": "views",
+      "patterns": [
+        "What sights are there in almetyevsk?",
+        "Are there any attractions in Almetyevsk?",
+        "Can you recommend a sightseeing spot in Almetyevsk?",
+        "What are some popular attractions in Almetyevsk?",
+        "Which sights are located in Almetyevsk?"
+      ],
+      "responses": [
+        "Almetyevsk's main attractions include the 'Almetyevsk' stele, the monument to oilmen, and the 'Sundial' sculpture on the embankment.",
+        "Some of the sights in Almetyevsk are the 'Almetyevsk' stele, the monument to oilmen, and the 'Sundial' sculpture on the embankment.",
+        "Popular attractions in Almetyevsk include the 'Almetyevsk' stele, the monument to oilmen, and the 'Sundial' sculpture on the embankment."
+      ]
+    },
+    {
+      "tag": "sports facilities",
+      "patterns": [
+        "Where can I play sports in Almetyevsk?",
+        "What sports facilities are there in Almetyevsk?",
+        "Are there any gyms or sports centers in Almetyevsk?",
+        "Can you recommend a place for sports in Almetyevsk?"
+      ],
+      "responses": [
+        "Almetyevsk has sports facilities including the Yubileyny Ice Palace for ice skating and events, World Class Fitness Club for gym and group classes, and Neftyanik Stadium for football and running tracks.",
+        "Some of the sports facilities in Almetyevsk are the Yubileyny Ice Palace for ice skating and events, World Class Fitness Club for gym and group classes, and Neftyanik Stadium for football and running tracks.",
+        "Popular places for sports in Almetyevsk include the Yubileyny Ice Palace for ice skating and events, World Class Fitness Club for gym and group classes, and Neftyanik Stadium for football and running tracks."
+      ]
+    },
+    {
+      "tag": "meuseum",
+      "patterns": [
+        "What museums are there in Almetyevsk?",
+        "Are there any museums in Almetyevsk?",
+        "Can you recommend a museum in Almetyevsk?",
+        "What are some popular museums in Almetyevsk?",
+        "Which museums are located in Almetyevsk?"
+      ],
+      "responses": [
+        "Almetyevsk has the Almetyevsk Museum of Local Lore, showcasing the city's history, and the Oil Museum, focused on the oil industry.",
+        "Some of the museums in Almetyevsk are the Almetyevsk Museum of Local Lore, showcasing the city's history, and the Oil Museum, focused on the oil industry.",
+        "Popular museums in Almetyevsk include the Almetyevsk Museum of Local Lore, showcasing the city's history, and the Oil Museum, focused on the oil industry.",
+        "In Almetyevsk, you can visit the Almetyevsk Museum of Local Lore, showcasing the city's history, and the Oil Museum, focused on the oil industry."
+      ]
+    },
+    {
+      "tag": "movie",
+      "patterns": [
+        "Where can I watch a movie in Almetyevsk?",
+        "What cinemas are there in Almetyevsk?",
+        "Are there any movie theaters in Almetyevsk?",
+        "Can you recommend a cinema in Almetyevsk?",
+        "What are some popular movie theaters in Almetyevsk?"
+      ],
+      "responses": [
+        "Almetyevsk has Cinema Park in the Panorama shopping mall and The Mir Cinema in the city center.",
+        "Some of the movie theaters in Almetyevsk are Cinema Park in the Panorama shopping mall and The Mir Cinema in the city center.",
+        "Popular cinemas in Almetyevsk include Cinema Park in the Panorama shopping mall and The Mir Cinema in the city center.",
+        "In Almetyevsk, you can watch movies at Cinema Park in the Panorama shopping mall and The Mir Cinema in the city center."
+      ]
+    },
+    {
+      "tag": "shopping",
+      "patterns": [
+        "What shopping malls are there in Almetyevsk?",
+        "Are there any shopping centers in Almetyevsk?",
+        "Can you recommend a shopping mall in Almetyevsk?",
+        "What are some popular shopping centers in Almetyevsk?"
+      ],
+      "responses": [
+        "Almetyevsk has large shopping malls including Panorama with shops, a cinema, and a cafe, Yashlek with clothing and grocery stores, and Arbat in the city center.",
+        "Some of the shopping centers in Almetyevsk are Panorama with shops, a cinema, and a cafe, Yashlek with clothing and grocery stores, and Arbat in the city center.",
+        "Popular shopping malls in Almetyevsk include Panorama with shops, a cinema, and a cafe, Yashlek with clothing and grocery stores, and Arbat in the city center."
+      ]
+    }
+  ]
+}
