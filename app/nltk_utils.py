@@ -1,10 +1,7 @@
 import nltk
 from nltk.data import find
-import os
-try:
-    find('tokenizers/punkt')
-except LookupError:
-    nltk.download('punkt')
+nltk.data.path.append('C:\Users\\bebop\OneDrive\Documents\ML\chatbot_flask\\nltk_data')
+
 import numpy as np
 
 from nltk.stem.porter import PorterStemmer
