@@ -1,6 +1,6 @@
 import requests
 import re 
-from app.translator import translate_ru
+from translator import translate_ru
 def get_weather(city_name):
     api_key = "dddbea70c08a66f713e3b2d79b504ed6"
     url = f"http://api.openweathermap.org/data/2.5/weather?q={city_name}&appid={api_key}&units=metric"
