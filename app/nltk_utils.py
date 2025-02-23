@@ -1,6 +1,6 @@
 import nltk
 from nltk.data import find
-nltk.data.path.append('C:\Users\\bebop\OneDrive\Documents\ML\chatbot_flask\\nltk_data')
+nltk.data.path.append('C:/Users/bebop/OneDrive/Documents/ML/chatbot_flask/nltk_data')
 
 import numpy as np
 
