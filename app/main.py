@@ -4,11 +4,11 @@ import torch
 from model import NeuralNet
 import os
 
-from nltk_utils import bag_of_words, tokenize
-from weather import get_weather, get_city
-from translator import translate_parallel, translate_en, translate_ru
+from app.nltk_utils import bag_of_words, tokenize
+from app.weather import get_weather, get_city
+from app.translator import translate_parallel, translate_en, translate_ru
 from flask import Flask, request, jsonify
-from waitress import serve
+
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
@@ -18,10 +18,10 @@ app = Flask(__name__)
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-with open('intents-ALMET.json', 'r') as f:
+with open('app/intents-ALMET.json', 'r') as f:
     intents = json.load(f)
 
-FILE = "data-almet.pth"
+FILE = "app/data-almet.pth"
 data = torch.load(FILE)
 
 input_size = data["input_size"]
